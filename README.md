@@ -1,6 +1,13 @@
-# Dotfiles
-
 Public dotfiles of @eumirandarainerm, which contains configuration files and other assets.
+
+# INSTALL
+
+1. Clone this repository in your `${HOME}`
+```
+cd ${HOME} && git clone https://github.com/rainermiranda/dotfiles.git
+```
+
+2. Run `setup.sh` to stow assets
 
 # SOFTWARES
 
@@ -27,9 +34,7 @@ git clone https://github.com/tmux-plugins/tpm.git ${HOME}/.config/tmux/plugins/t
 
 1. Install [Starship](https://starship.rs/)
 
-2. Use [Nerd Font Preset](https://starship.rs/presets/nerd-font.html)
-
-3. Restart terminal
+2. Restart terminal
 
 ## asdf
 
