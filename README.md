@@ -4,10 +4,13 @@ Public dotfiles of @eumirandarainerm, which contains configuration files and oth
 
 1. Clone this repository in your `${HOME}`
 ```
-cd ${HOME} && git clone https://github.com/rainermiranda/dotfiles.git
+cd ${HOME} && git clone https://github.com/rainermiranda/dotfiles.git .dotfiles
 ```
 
 2. Run `setup.sh` to stow assets
+```
+cd ${HOME}/.dotfiles && ./setup.sh
+```
 
 # SOFTWARES
 
