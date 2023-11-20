@@ -117,4 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 # oh-my-shell init
+# <!> ANY CHANGES TO .bashrc MUST BE DONE TO FILE BELOW <!>
 . "$HOME/.oh-my-shell/init.sh"
+
