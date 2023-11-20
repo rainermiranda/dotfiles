@@ -16,7 +16,7 @@ cd ${HOME}/.dotfiles && ./setup.sh
 ```
 . "${HOME}/.oh-my-shell/init.sh"
 ```
-Any changes that must be made to the .bashrc file must be made to the above file
+Any changes you would make to the .bashrc file should now be made to the file above
 
 # SOFTWARES
 
