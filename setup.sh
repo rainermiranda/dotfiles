@@ -21,7 +21,7 @@ echo "** Don´t forget to add the line below at the end of your .bashrc file **"
 echo ""
 echo '. "${HOME}/.oh-my-shell/init.sh"'
 echo ""
-
+echo "** And remember: any changes to .bashrc must be made, from now on, in the file above **"
 # Stow each file to ${HOME}
 # Using '-printf' to supress dot-slash on filenames
 #for file in `find ./ -maxdepth 1 -type f ! -name "setup.sh" -printf '%P\n'`
