@@ -46,13 +46,13 @@ git clone https://github.com/tmux-plugins/tpm.git ${HOME}/.config/tmux/plugins/t
 
 ## Starship
 
-1. Install [Starship](https://starship.rs/)
+1. Install [Starship](https://starship.rs/). The startup line is already added to the init.sh
 
 2. Restart terminal
 
 ## asdf
 
-1. Install [asdf](https://asdf-vm.com/guide/getting-started.html)
+1. Install [asdf](https://asdf-vm.com/guide/getting-started.html). The startup line has already added to the init.sh
 
 2. Install plugins
 - [Kubectl](https://github.com/asdf-community/asdf-kubectl)
