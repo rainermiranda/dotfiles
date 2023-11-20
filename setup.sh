@@ -6,7 +6,7 @@ export XDG_CONFIG_HOME=${HOME}/.config
 for dir in `ls -d */`
 do
 	if [ ${dir} == "bash/" ]; then
-		echo "stowing bash profile to ${HOME}/.bashrc"
+		echo "stowing bash profile and oh-my-shell to ${HOME}"
 		`stow -t ${HOME} ${dir}`
 	else
 		target_dir=${XDG_CONFIG_HOME}/${dir}
