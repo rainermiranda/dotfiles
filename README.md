@@ -12,6 +12,12 @@ cd ${HOME} && git clone https://github.com/rainermiranda/dotfiles.git .dotfiles
 cd ${HOME}/.dotfiles && ./setup.sh
 ```
 
+3. Add the line below to your `.bashrc` file. 
+```
+. "${HOME}/.oh-my-shell/init.sh"
+```
+Any changes that must be made to the .bashrc file must be made to the above file
+
 # SOFTWARES
 
 ## Neovim
