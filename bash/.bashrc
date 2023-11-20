@@ -121,7 +121,7 @@ export GOPATH=${HOME}/workspace/go
 export PATH=$PATH:/usr/local/go/bin
 
 # Neovim
-export PATH=${PATH}:/usr/local/neovim/bin
+export PATH=${PATH}:/usr/local/nvim/bin
 alias neovim='nvim'
 alias vim='nvim'
 

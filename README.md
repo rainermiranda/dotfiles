@@ -16,7 +16,12 @@ cd ${HOME}/.dotfiles && ./setup.sh
 
 ## Neovim
 
-1. Install the latest version of neovim to `/usr/local/neovim`
+1. Install the latest version of neovim to `/usr/local/nvim` visiting this [link](https://github.com/neovim/neovim/releases/tag/stable)
+```
+# For linux64
+cd /tmp && wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
+sudo rm -rf /usr/local/nvim/ && sudo tar -C /usr/local/ -xzf nvim-linux64.tar.gz && sudo mv /usr/local/nvim-linux64 /usr/local/nvim
+```
 
 ## Alacritty
 
