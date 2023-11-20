@@ -59,3 +59,10 @@ git clone https://github.com/tmux-plugins/tpm.git ${HOME}/.config/tmux/plugins/t
 - [Helm](https://github.com/Antiarchitect/asdf-helm)
 
 3. Help with plugins, [click here](https://z-uo.medium.com/muliple-version-of-kubectl-easy-with-asdf-aa3ff72d6e9)
+
+# MISC
+
+## Nerd fonts
+
+1. Install some [Nerd Font](https://www.nerdfonts.com/). I'm using Hack Nerd Font.
+
