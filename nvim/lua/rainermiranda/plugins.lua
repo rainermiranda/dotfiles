@@ -62,4 +62,14 @@ return {
     {
         'ThePrimeagen/harpoon',
     },
+
+    -- Vim-go
+    {
+        'fatih/vim-go',
+    },
+
+    -- LSP
+    {
+        'neovim/nvim-lspconfig',
+    },
 }

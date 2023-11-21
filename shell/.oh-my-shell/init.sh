@@ -2,7 +2,7 @@
 
 # Go environment
 export GOPATH=${HOME}/workspace/go
-export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 # Neovim environment
 export PATH=${PATH}:/usr/local/nvim/bin
