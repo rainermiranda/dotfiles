@@ -72,4 +72,15 @@ return {
     {
         'neovim/nvim-lspconfig',
     },
+
+    -- nvim-cmp
+    {
+        "hrsh7th/nvim-cmp",
+        dependencies = {
+            "hrsh7th/cmp-nvim-lsp",
+            "hrsh7th/cmp-buffer",
+            "hrsh7th/cmp-vsnip", -- snippet engine
+            "hrsh7th/vim-vsnip", -- snippet engine
+        },
+    },
 }
